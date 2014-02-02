@@ -25,4 +25,4 @@ root $>
 
 File descriptor 4 is the one we want to redirect our shell's stdin, stdout, and stderr too.  File descriptors 0, 1, and 2 are reserved for the usual stdin, stdout, and stderr respectiviely, and 3 is used to communicate with the port.
 
-We have to specify the - (dash) when we send our malicious object, so as to prevent sending an EOF character from terminating the remote shell.
+We have to specify the - (dash) when we send our malicious object, so as to prevent an EOF character terminating the remote shell.
