@@ -8,6 +8,6 @@ The web form allows us to upload a file.  It also preserves the name of the file
 
 ```
 Upload the exploit file.
-Navigate to \<url>\<exploit_file>?cmd=\<cmd>.
+Navigate to <url><exploit_file>?cmd=<cmd>.
 The password can be found in .bash_history.
 ```
