@@ -15,11 +15,11 @@ nc <address> <port> | connect to an address and port
 
 ## Execution
 
-'''
+```
 $ python -m exploit.py > file
 $ cat file - | nc <address> <port>
 root $>
-'''
+```
 
 ## Notes
 
