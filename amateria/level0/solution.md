@@ -9,9 +9,9 @@ We can exploit the Pickle module in order to achieve an interactive shell on the
 Command | Description
 --------|------------
 ps -a | List the currently running processes
-ls /proc/&ltPID>/fd/ | List the file descriptors for a given PID (process)
-cat &ltfile> - | Write a file to stdout, then wait for user input (also will be written to stdout)
-nc &ltaddress> <port> | connect to an address and port
+ls /proc/&lt PID>/fd/ | List the file descriptors for a given PID (process)
+cat &lt file> - | Write a file to stdout, then wait for user input (also will be written to stdout)
+nc &lt address> <port> | connect to an address and port
 
 ## Execution
 
