@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cat /home/level5/.pass
